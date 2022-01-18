@@ -1,0 +1,16 @@
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\bin\Debug\EleveNote.Data.dll.config
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\bin\Debug\EleveNote.Data.dll
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\bin\Debug\EleveNote.Data.pdb
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\bin\Debug\EntityFramework.dll
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\bin\Debug\EntityFramework.xml
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\obj\Debug\EleveNote.Data.csproj.AssemblyReference.cache
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\obj\Debug\EleveNote.Data.csproj.CoreCompileInputs.cache
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\obj\Debug\EleveNote.Data.csproj.CopyComplete
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\obj\Debug\EleveNote.Data.dll
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\obj\Debug\EleveNote.Data.pdb
