@@ -14,3 +14,11 @@ C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\obj\Debug\EleveNo
 C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\obj\Debug\EleveNote.Data.csproj.CopyComplete
 C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\obj\Debug\EleveNote.Data.dll
 C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\obj\Debug\EleveNote.Data.pdb
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\bin\Debug\System.Web.Http.dll
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\bin\Debug\System.Web.Http.xml
+C:\Users\rex_m\Desktop\ElevenNoteMVC\ElevenNote\EleveNote.Data\bin\Debug\System.Web.Http.WebHost.xml
