@@ -1,4 +1,6 @@
 ﻿using ElevenNote.Models;
+using ElevenNote.Services;
+using Microsoft.AspNet.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +15,12 @@ namespace ElevenNote.WebMVC.Controllers
         // GET: Note
         public ActionResult Index()
         {
-            var model = new NoteListItem[0];
+            //var model = new NoteListItem[0];
+
+            var userId = Guid.Parse(User.Identity.GetUserId());
+            var service = new NoteService(userId);
+            var model = service.GetNotes();
+
             return View(model);
         }
         // In the code above, we are initializing a new instance of the NoteListItem as an IEnumerable with the [0] syntax. This will satisfy some of the requirements for our Index View. When we added the List template for our view, it created some IEnumerable requirements for our list view. 
@@ -29,11 +36,17 @@ namespace ElevenNote.WebMVC.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(NoteCreate model)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-
+                return View(model);
             }
-            return View(model);
+
+            var userId = Guid.Parse(User.Identity.GetUserId());
+            var service = new NoteService(userId);
+
+            service.CreateNote(model);
+
+            return RedirectToAction("Index");
         }
     }
 }
