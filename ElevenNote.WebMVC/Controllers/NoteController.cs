@@ -17,5 +17,23 @@ namespace ElevenNote.WebMVC.Controllers
             return View(model);
         }
         // In the code above, we are initializing a new instance of the NoteListItem as an IEnumerable with the [0] syntax. This will satisfy some of the requirements for our Index View. When we added the List template for our view, it created some IEnumerable requirements for our list view. 
+
+        //Add method here VVVV
+        //GET
+        public ActionResult Create()
+        {
+            return View();
+        }
+        //Add code here vvvv
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(NoteCreate model)
+        {
+            if (ModelState.IsValid)
+            {
+
+            }
+            return View(model);
+        }
     }
 }
