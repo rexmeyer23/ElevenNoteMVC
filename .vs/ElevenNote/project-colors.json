@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1f6ddb88-b0a9-4d60-95e2-1c08172f341f": {
+      "ProjectGuid": "1f6ddb88-b0a9-4d60-95e2-1c08172f341f",
+      "DisplayName": "ElevenNote.WebMVC",
+      "ColorIndex": 0
+    },
+    "35ceec50-06cb-433a-9ea5-87bebeccab4c": {
+      "ProjectGuid": "35ceec50-06cb-433a-9ea5-87bebeccab4c",
+      "DisplayName": "EleveNote.Data",
+      "ColorIndex": 1
+    },
+    "c08366e7-ede7-4be4-bbc5-1320055617d6": {
+      "ProjectGuid": "c08366e7-ede7-4be4-bbc5-1320055617d6",
+      "DisplayName": "ElevenNote.Models",
+      "ColorIndex": 2
+    },
+    "e1898ed6-31d2-489b-86a3-5d42de57d92b": {
+      "ProjectGuid": "e1898ed6-31d2-489b-86a3-5d42de57d92b",
+      "DisplayName": "ElevenNote.Services",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}
