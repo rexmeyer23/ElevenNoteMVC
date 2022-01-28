@@ -7,6 +7,7 @@ using System.Web.Routing;
 
 namespace ElevenNote.WebMVC
 {
+    //routes are crearted in mvcs with routeconfig, 
     public class RouteConfig
     {
         public static void RegisterRoutes(RouteCollection routes)

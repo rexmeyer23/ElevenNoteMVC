@@ -11,7 +11,7 @@ namespace ElevenNote.Services
 {
     public class NoteService
     {
-        private readonly Guid _userId;
+        private readonly Guid _userId; //caching helps app run faster, smaller amount of objects are created
 
         public NoteService(Guid userId)
         {

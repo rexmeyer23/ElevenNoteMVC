@@ -10,6 +10,7 @@ using System.Web.Mvc;
 namespace ElevenNote.WebMVC.Controllers
 {
     [Authorize] //makes views accessible only to logged in users
+    //have to create a user role to specify which role has access, something like [Authorize Role = "User Role"]
     public class NoteController : Controller
     {
         // GET: Note
@@ -32,6 +33,7 @@ namespace ElevenNote.WebMVC.Controllers
             return View();
         }
         //Add code here vvvv
+        //POST: Note/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(NoteCreate model)
@@ -118,7 +120,8 @@ namespace ElevenNote.WebMVC.Controllers
         }
         private NoteService CreateNoteService()
         {
-            var userId = Guid.Parse(User.Identity.GetUserId());
+            var userId = Guid.Parse(User.Identity.GetUserId()); //saying to get userId, comes from authorize annotation, annontation allows computer to generate compputer security, will hear token a lot when talking abouut security, (token is randomly generated set of letters and numbers which allows access to application, generated based off username and password), 
+            //dont have to just use getuserid, can use get username
             var service = new NoteService(userId);
             return service;
         }
